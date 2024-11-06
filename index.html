@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.0/dist/ethers.umd.min.js"></script>
+    <script src="https://unpkg.com/@solana/web3.js@1.34.1/lib/index.iife.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Key Generator for Ethereum and Solana</h1>
+    <button id="generate-eth-button">Generate Ethereum Keys</button>
+    <button id="generate-sol-button">Generate Solana Keys</button>
+    
+    <div id="result">
+        <h2>Generated Keys:</h2>
+        <div id="eth-result">
+            <h3>Ethereum:</h3>
+            <p id="eth-address"></p>
+            <p id="eth-private-key"></p>
+        </div>
+        <div id="sol-result">
+            <h3>Solana:</h3>
+            <p id="sol-address"></p>
+            <p id="sol-private-key"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
