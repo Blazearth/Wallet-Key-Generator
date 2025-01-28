@@ -1,1 +1,1 @@
-# Wallet-demo
+🔑 Wallet Key Generator: A simple and secure tool for generating public and private keys for Ethereum and Solana wallets. Built using JavaScript, it leverages cryptographic algorithms to ensure key integrity and includes seamless integration with Alchemy and Postman for advanced testing. Perfect for blockchain developers and enthusiasts!"
